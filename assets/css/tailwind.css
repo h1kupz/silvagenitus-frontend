@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+@font-face {
+  font-family: "Jackwrite";
+  src: url("@/assets/fonts/Jackwrite-8MxjA.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply w-full mx-auto max-w-screen-xl font-sans bg-background;
+  }
+  header {
+    @apply fixed top-6 w-full max-w-screen-xl;
+  }
+  footer {
+    @apply m-2;
+  }
+  body {
+    @apply text-primary;
+  }
+  h1 {
+    @apply font-bold leading-relaxed tracking-widest uppercase text-5xl mb-2;
+  }
+  h2 {
+    @apply font-serif font-medium tracking-wide text-3xl;
+  }
+  h3 {
+    @apply font-medium uppercase tracking-wider text-2xl mb-4 mt-4;
+  }
+  h4 {
+    @apply font-semibold uppercase tracking-wider;
+  }
+  h5 {
+    @apply tracking-wide;
+  }
+  p {
+    @apply mb-3;
+  }
+  li {
+    @apply text-lg uppercase hover:text-hover;
+  }
+}
+
+@layer components {
+  .modgrow {
+    @apply grow h-full flex flex-col justify-center;
+  }
+  .modbutton {
+    @apply bg-buttons hover:bg-background backdrop-filter backdrop-blur bg-opacity-70;
+  }
+  .menuOverlay {
+    @apply modgrow bg-buttons backdrop-filter backdrop-blur-[3px] bg-opacity-60 mt-2 px-4 rounded;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
