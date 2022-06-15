@@ -16,7 +16,11 @@ export default {
           href: `favicon.png`,
         },
       ],
-      script: [{ src: "https://js.stripe.com/v3/" }],
+      script: [
+        {
+          src: "https://js.stripe.com/v3/",
+        },
+      ],
     };
   },
 };

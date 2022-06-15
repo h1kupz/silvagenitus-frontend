@@ -1,8 +1,5 @@
 export const state = () => ({
   allProducts: [],
-  featuredProducts: [],
-  menProducts: [],
-  womenProducts: [],
   cartItems: [],
 });
 

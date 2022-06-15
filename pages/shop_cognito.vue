@@ -8,14 +8,13 @@
         <h2>{{ product.name }}</h2>
         <h3>$ {{ product.price }}</h3>
         {{ product.description }}
-        <a
-          href="https://buy.stripe.com/test_14k9AHac9fVJcnu144"
-          target="_blank"
-        >
-          <button class="orderButton">
+        <nuxt-link to="shop_checkout">
+          <button
+            class="bg-primary text-secondary rounded-lg w-32 h-10 mt-6 flex justify-center hover:bg-hover"
+          >
             <h4 class="m-0 self-center">Order</h4>
           </button>
-        </a>
+        </nuxt-link>
       </div>
     </div>
   </div>

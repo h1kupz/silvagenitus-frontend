@@ -5,17 +5,7 @@
         <img v-bind:src="product.image" alt="" class="rounded-lg self-center" />
       </div>
       <div class="productInfo">
-        <h2>{{ product.name }}</h2>
-        <h3>$ {{ product.price }}</h3>
-        {{ product.description }}
-        <a
-          href="https://buy.stripe.com/test_14k9AHac9fVJcnu144"
-          target="_blank"
-        >
-          <button class="orderButton">
-            <h4 class="m-0 self-center">Order</h4>
-          </button>
-        </a>
+        <Form />
       </div>
     </div>
   </div>
