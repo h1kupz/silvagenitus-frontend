@@ -3,7 +3,9 @@
     class="flex flex-col h-screen mx-auto bg-[url('/AboutBG.jpg')] bg-contain bg-right bg-no-repeat"
   >
     <div class="flex h-max my-auto">
-      <div class="w-2/5 text-right pl-20">
+      <div
+        class="lg:w-2/5 md:w-1/2 text-right bg-white bg-opacity-70 rounded p-8"
+      >
         <p>
           We've been experimenting with using the fruit from Syzygium luehmannii
           in wine making for some years now, initially with other fruits. We

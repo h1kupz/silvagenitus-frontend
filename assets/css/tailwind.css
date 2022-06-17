@@ -1,8 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
-
 @font-face {
   font-family: "Jackwrite";
   src: url("@/assets/fonts/Jackwrite-8MxjA.ttf");
+}
+
+@font-face {
+  font-family: "Jackwritethin";
+  src: url("@/assets/fonts/JackwriteThin-YzvOL.ttf");
 }
 
 @tailwind base;
@@ -11,10 +14,10 @@
 
 @layer base {
   html {
-    @apply w-full mx-auto max-w-screen-xl font-sans bg-background;
+    @apply w-full mx-auto font-sans bg-background;
   }
   header {
-    @apply fixed top-6 w-full max-w-screen-xl;
+    @apply fixed top-6 w-full;
   }
   footer {
     @apply m-2;
@@ -35,7 +38,7 @@
     @apply font-semibold uppercase tracking-wider;
   }
   h5 {
-    @apply tracking-wide;
+    @apply text-lg tracking-wide;
   }
   p {
     @apply mb-3;
@@ -46,6 +49,9 @@
 }
 
 @layer components {
+  .silvagenitus {
+    @apply font-serifthin tracking-tight text-white text-6xl;
+  }
   .productInfo {
     @apply md:w-1/2 sm:w-2/3 px-5 pb-10 self-center;
   }

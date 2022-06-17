@@ -14,10 +14,12 @@ module.exports = {
       background: "#FFFFFF",
       buttons: "#1B1F22",
       hover: "#9F3324",
+      white: "#FFFFFF",
     },
     extend: {
       fontFamily: {
         serif: ["Jackwrite", "serif"],
+        serifthin: ["Jackwritethin", "serif"],
       },
     },
   },
