@@ -6,6 +6,6 @@
 
 <script>
 definePageMeta({
-  layout: "fullpage",
+  layout: "homecontact",
 });
 </script>

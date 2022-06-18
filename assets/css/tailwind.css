@@ -46,6 +46,9 @@
   li {
     @apply text-lg uppercase hover:text-hover;
   }
+  a {
+    @apply hover:text-hover;
+  }
 }
 
 @layer components {
