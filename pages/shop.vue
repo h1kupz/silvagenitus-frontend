@@ -1,8 +1,12 @@
 <template>
   <div class="max-w-screen-md mx-auto">
     <div v-for="product in products" :key="product.id" class="md:flex block">
-      <div class="md:w-1/2 w-2/3 p-5 self-center">
-        <img v-bind:src="product.image" alt="" class="rounded-lg self-center" />
+      <div class="md:w-1/2 w-2/3 p-5">
+        <img
+          v-bind:src="product.image"
+          alt="Syzygium Luehmannii Pet Nat 2022"
+          class="rounded-lg self-center"
+        />
       </div>
       <div class="productInfo">
         <h2>{{ product.name }}</h2>

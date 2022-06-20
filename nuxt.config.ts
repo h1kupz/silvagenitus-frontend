@@ -10,13 +10,7 @@ export default defineNuxtConfig({
     },
   },
   meta: {
-    link: [
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      {
-        href: "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap",
-        rel: "stylesheet",
-      },
-    ],
+    link: [],
   },
   publicRuntimeConfig: {
     API_URL: process.env.API_URL,
