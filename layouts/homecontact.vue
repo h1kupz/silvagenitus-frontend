@@ -4,8 +4,11 @@
   >
     <div class="relative font-body flex flex-col h-screen">
       <HeaderSection />
-      <section class="">
+      <section>
         <slot />
+        <div class="fixed bottom-40 right-20">
+          <h2 class="silvagenitus">silvagenitus</h2>
+        </div>
       </section>
     </div>
   </div>
