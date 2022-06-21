@@ -49,6 +49,12 @@
   a {
     @apply hover:text-hover;
   }
+  input {
+    @apply mb-2 p-2 rounded bg-secondary;
+  }
+  textarea {
+    @apply p-2 rounded h-28 bg-secondary;
+  }
 }
 
 @layer components {
