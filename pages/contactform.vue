@@ -10,7 +10,7 @@
       >
         <input type="hidden" name="form-name" value="contact" />
         <div>
-          <input name="name" required placeholder="Name" />
+          <input type="text" name="name" required placeholder="Name" />
         </div>
         <div>
           <input type="email" name="email" required placeholder="Email" />
