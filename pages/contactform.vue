@@ -2,29 +2,30 @@
   <div class="flex items-center justify-center h-screen">
     <div>
       <form
-        name="contact-form"
+        name="contact"
         method="POST"
         action="/thankyou/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
-        <input type="hidden" value="contact-form" name="form-name" />
+        <input type="hidden" name="form-name" value="contact" />
         <div>
-          <input type="hidden" name="form-name" value="contact-form" />
-          <div>
-            <input name="name" required placeholder="Name" />
-          </div>
-          <div>
-            <input type="email" name="email" required placeholder="Email" />
-          </div>
-          <div>
-            <textarea name="message" required placeholder="Message"></textarea>
-          </div>
-          <div>
-            <button class="orderButton" type="submit" value="Submit">
-              <h4 class="m-0 self-center">Submit</h4>
-            </button>
-          </div>
+          <input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
+            name="name"
+            required
+            placeholder="Name"
+          />
+        </div>
+        <div>
+          <input type="email" name="email" required placeholder="Email" />
+        </div>
+        <div>
+          <textarea name="message" required placeholder="Message"></textarea>
+        </div>
+        <div>
+          <button class="orderButton" type="submit" value="Submit">
+            <h4 class="m-0 self-center">Submit</h4>
+          </button>
         </div>
       </form>
     </div>
