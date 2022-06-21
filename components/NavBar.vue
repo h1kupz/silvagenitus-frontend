@@ -15,9 +15,6 @@
       <li>
         <nuxt-link to="contact">Contact</nuxt-link>
       </li>
-      <li>
-        <nuxt-link to="contact_form">Contact Form</nuxt-link>
-      </li>
     </ul>
   </nav>
 </template>
