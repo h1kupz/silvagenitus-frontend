@@ -26,7 +26,7 @@
         <input
           type="hidden"
           name="redirectTo"
-          value="https://example.com/contact/success"
+          value="https://silvagenitus.netlify.app/thankyou"
         />
         <button class="orderButton self-center" type="submit">
           <h4 class="m-0 self-center">Submit</h4>
