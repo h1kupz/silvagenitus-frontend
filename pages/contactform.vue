@@ -12,13 +12,7 @@
         <div>
           <input type="hidden" name="form-name" value="contact-form" />
           <div>
-            <input
-              for="name"
-              type="text"
-              name="name"
-              required
-              placeholder="Name"
-            />
+            <input name="name" required placeholder="Name" />
           </div>
           <div>
             <input type="email" name="email" required placeholder="Email" />
@@ -27,7 +21,7 @@
             <textarea name="message" required placeholder="Message"></textarea>
           </div>
           <div>
-            <button class="orderButton" type="submit" value="Send message">
+            <button class="orderButton" type="submit" value="Submit">
               <h4 class="m-0 self-center">Submit</h4>
             </button>
           </div>
