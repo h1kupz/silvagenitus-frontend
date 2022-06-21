@@ -8,6 +8,7 @@
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
+        <input type="hidden" value="contact-form" name="form-name" />
         <div>
           <input type="hidden" name="form-name" value="contact-form" />
           <div>
@@ -26,7 +27,9 @@
             <textarea name="message" required placeholder="Message"></textarea>
           </div>
           <div>
-            <button type="submit" value="Send message">Submit</button>
+            <button class="orderButton" type="submit" value="Send message">
+              <h4 class="m-0 self-center">Submit</h4>
+            </button>
           </div>
         </div>
       </form>
