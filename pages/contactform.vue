@@ -3,7 +3,7 @@
     <div>
       <form
         name="contact-form"
-        method="post"
+        method="POST"
         action="/thankyou/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
