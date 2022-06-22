@@ -6,7 +6,9 @@
       <HeaderSection />
       <section>
         <slot />
-        <div class="fixed bottom-40 right-20">
+        <div
+          class="fixed sm:bottom-40 sm:right-20 sm:translate-x-0 bottom-10 right-1/2 translate-x-1/2"
+        >
           <h2 class="silvagenitus">silvagenitus</h2>
         </div>
       </section>

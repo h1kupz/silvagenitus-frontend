@@ -1,6 +1,8 @@
 <template>
   <div class="flex h-screen items-center">
-    <div class="text-center bg-white bg-opacity-70 rounded-lg p-8 pb-5">
+    <div
+      class="text-center bg-white bg-opacity-70 rounded-lg p-8 pb-5 mt-20 sm:mt-0"
+    >
       <p>
         We've been experimenting with using the fruit from Syzygium luehmannii
         in wine making for some years now, initially with other fruits. We found

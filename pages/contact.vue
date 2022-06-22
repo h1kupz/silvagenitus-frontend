@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center justify-center h-screen">
     <div
-      class="bg-hover w-screen max-w-xl px-4 py-6 pt-8 mx-4 rounded-xl bg-opacity-70"
+      class="bg-hover w-screen max-w-xl px-4 py-6 pt-8 mx-4 rounded-xl bg-opacity-70 z-40"
     >
       <form
         action="https://api.staticforms.xyz/submit"
